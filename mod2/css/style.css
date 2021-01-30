@@ -7,3 +7,7 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+section {
+    background-color: grey;
+}
