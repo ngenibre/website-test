@@ -13,9 +13,22 @@ section {
 }
 
 h2 {
+    border: 1px solid black;
+}
+
+#chicken {
+    background-color: salmon;
+}
+
+#chicken {
     background-color: red;
+}
+
+#sushi {
+    background-color: yellow;
 }
 
 p {
     font-style: italic;
+    border: 1px solid black;
 }
