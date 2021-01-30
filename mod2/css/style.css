@@ -11,3 +11,11 @@ body {
 section {
     background-color: grey;
 }
+
+h2 {
+    background-color: red;
+}
+
+p {
+    font-style: italic;
+}
