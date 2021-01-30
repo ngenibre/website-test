@@ -10,6 +10,7 @@ body {
 
 section {
     background-color: grey;
+    border: 1px solid black;
 }
 
 h2 {
@@ -30,5 +31,4 @@ h2 {
 
 p {
     font-style: italic;
-    border: 1px solid black;
 }
