@@ -8,34 +8,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-
-}
-
-@media (max-width: 767px){
-
-}
-
-
 h1{
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 article {
-    background-color: blue;
+    display: flex;
+    justify-content: center;
 }
 
 section {
-    position: relative;
-    width: 20%;
+    width: 300px;
     float: left;
-    margin-left: 10%;
+    margin-left: 3%;
     background-color: grey;
     border: 1px solid black;
 }
@@ -47,6 +36,7 @@ h3 {
     border: 1px solid black;
     text-align: center;
 }
+
 
 #chicken {
     background-color: salmon;
@@ -64,4 +54,40 @@ h3 {
 p {
     font-style: italic;
     padding: 3%;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    article {
+        display: inline;
+        background-color: rosybrown;
+    }
+    
+    #md {
+        clear: left;
+        margin-top: 3%;
+        width: 720px;
+    }
+}
+
+@media (max-width: 767px){
+
+    article {
+        display: inline;
+        background-color: rosybrown;
+    }
+
+    #md {
+        clear: left;
+        margin-top: 3%;
+    }
+
+    #sm {
+        clear: left;
+        margin-top: 3%;
+    }
 }
